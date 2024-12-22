@@ -8,9 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      animation: {
+        "spin-slow": "spin 10s linear infinite",
+        "pulse-slow": "spin 10s ease-in-out infinite",
+        "bounce-slow": "bounce 5s ease-in-out infinite",
+        "fade-slow": "fade 5s ease-in-out infinite",
       },
     },
   },
